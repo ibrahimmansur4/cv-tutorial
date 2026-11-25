@@ -1,0 +1,20 @@
+# Local Python environments and caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+
+# Downloaded models and generated/third-party media
+models/*
+!models/.gitkeep
+assets/input/*
+!assets/input/.gitkeep
+!assets/input/sample-face.png
+assets/output/*
+!assets/output/.gitkeep
+!assets/output/sample-face-haar.png
+!assets/output/sample-face-dnn.png
+
+!assets/output/smoke-test-haar.jpg
+!assets/output/sample-face-compare.png
