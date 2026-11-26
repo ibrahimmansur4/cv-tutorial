@@ -1,0 +1,27 @@
+# Python environments, bytecode, tests, and coverage
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Runtime biometric index and attendance records
+data/*
+!data/.gitkeep
+
+# Generated annotated media
+assets/output/*
+!assets/output/.gitkeep
+!assets/output/sample-face-annotated.jpg
+
+# Locally enrolled people are private by default; only the fictional demo stays tracked
+known_faces/*
+!known_faces/README.md
+!known_faces/Sample Person/
+known_faces/Sample Person/*
+!known_faces/Sample Person/sample-face.png
+
+# Operating-system metadata
+.DS_Store
+Thumbs.db
