@@ -1,0 +1,8 @@
+sweep,model,input_size,frames,fps,mean_total_ms,median_total_ms,preprocess_ms,inference_ms,postprocess_ms,objects,mean_confidence,candidates,cpu_percent
+model,yolov5n,640,15,12.94,77.3,75.96,6.32,65.23,5.75,4.0,0.695,39.0,58.5
+model,yolov5s,640,15,4.44,225.16,212.87,7.85,210.0,7.31,5.0,0.748,53.0,67.0
+model,yolov5m,640,15,1.29,773.89,780.56,11.37,751.86,10.66,5.0,0.827,59.0,64.5
+resolution,yolo11n,320,15,14.81,67.52,59.71,12.5,53.28,1.74,5.0,0.716,42.0,35.4
+resolution,yolo11n,480,15,11.83,84.51,80.95,7.25,73.34,3.91,5.0,0.773,43.0,63.6
+resolution,yolo11n,640,15,8.03,124.52,119.82,9.15,111.28,4.1,5.0,0.78,45.0,73.7
+resolution,yolo11n,960,15,3.2,312.4,319.17,18.82,283.13,10.45,5.0,0.812,55.0,65.0

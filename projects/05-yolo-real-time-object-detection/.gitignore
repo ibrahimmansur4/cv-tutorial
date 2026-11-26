@@ -1,0 +1,31 @@
+# Python environments, caches, and coverage
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Downloaded YOLO ONNX models
+models/*
+!models/.gitkeep
+
+# Local input media, generated output, and benchmark data
+assets/input/*
+!assets/input/.gitkeep
+!assets/input/bus.jpg
+assets/output/*
+!assets/output/.gitkeep
+# Allowlist: the figures ARTICLE.md and README.md link to, plus the video clip.
+!assets/output/bus-annotated.jpg
+!assets/output/bus-timing.jpg
+!assets/output/bus-wrong-family.jpg
+!assets/output/letterbox-vs-stretch.jpg
+!assets/output/vtest-annotated.avi
+results/*
+!results/.gitkeep
+!results/benchmark.csv
+
+# Operating-system metadata
+.DS_Store
+Thumbs.db
