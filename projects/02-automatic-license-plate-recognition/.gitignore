@@ -1,0 +1,21 @@
+# Local Python environments, caches, and coverage output
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Reproducible generated fixtures and annotated runtime output
+assets/input/*
+!assets/input/.gitkeep
+!assets/input/synthetic_vehicle.png
+!assets/input/synthetic_drive.avi
+assets/output/*
+!assets/output/.gitkeep
+!assets/output/synthetic_vehicle-annotated.png
+!assets/output/synthetic_drive-annotated.avi
+
+# Operating-system metadata
+.DS_Store
+Thumbs.db
