@@ -1,0 +1,19 @@
+# Python environments, caches, and coverage
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local input media, decoded output, and experiment data
+assets/input/*
+!assets/input/.gitkeep
+assets/output/*
+!assets/output/.gitkeep
+results/*
+!results/.gitkeep
+
+# Operating-system metadata
+.DS_Store
+Thumbs.db
