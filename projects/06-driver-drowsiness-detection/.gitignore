@@ -1,0 +1,23 @@
+# Python environments, caches, and coverage
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Downloaded MediaPipe task models
+models/*
+!models/.gitkeep
+
+# Local input media, generated output, calibration, and experiment data
+assets/input/*
+!assets/input/.gitkeep
+assets/output/*
+!assets/output/.gitkeep
+results/*
+!results/.gitkeep
+
+# Operating-system metadata
+.DS_Store
+Thumbs.db
